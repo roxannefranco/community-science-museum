@@ -1,0 +1,13 @@
+:root {
+  --main-color: #123f21;
+  --bg-color: #f1f1f1;
+  --dark-grey: #4b4a4a;
+  --medium-grey: #888888;
+  --main-font: "Epilogue", sans-serif;
+  --text-font: "Noto Sans", sans-serif;
+}
+
+h1 {
+  font-family: var(--main-font);
+  font-size: 40px;
+}
