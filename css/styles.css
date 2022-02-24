@@ -1,5 +1,6 @@
 :root {
   --main-color: #123f21;
+  --sec-color: #1faa46;
   --bg-color: #f1f1f1;
   --dark-grey: #4b4a4a;
   --medium-grey: #888888;
@@ -7,7 +8,67 @@
   --text-font: "Noto Sans", sans-serif;
 }
 
+.center-content {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-intro {
+  background-image: url(../images/astronaut-background.jpg);
+  min-height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #112b1e;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.home-container {
+  display: flex;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.menu li a {
+  text-decoration: none;
+  font-family: var(--text-font);
+  font-size: 20px;
+  color: white;
+}
+.cta-button {
+  display: inline-block;
+  text-decoration: none;
+  font-family: var(--text-font);
+  font-size: 18px;
+  color: white;
+  background-color: var(--sec-color);
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+nav.menu {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.active {
+  font-weight: bold;
+}
 h1 {
   font-family: var(--main-font);
   font-size: 40px;
+  color: white;
 }
