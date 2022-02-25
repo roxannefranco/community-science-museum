@@ -12,8 +12,15 @@
   max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
 }
 .header-intro {
+  position: relative;
   background-image: url(../images/astronaut-background.jpg);
   min-height: 100vh;
   background-size: contain;
@@ -26,6 +33,7 @@ body {
 }
 .home-container {
   display: flex;
+  padding-top: 40px;
 }
 .menu ul {
   margin: 0;
@@ -33,8 +41,7 @@ body {
 }
 .menu li {
   display: inline-block;
-  margin-top: 40px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .menu li a {
   text-decoration: none;
@@ -51,18 +58,13 @@ body {
   background-color: var(--sec-color);
   border-radius: 50px;
   padding: 10px 20px;
-  margin-top: 40px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 nav.menu {
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: flex-end;
-}
-.logo {
-  margin-top: 40px;
-  margin-left: 10px;
 }
 .active {
   font-weight: bold;
@@ -71,4 +73,168 @@ h1 {
   font-family: var(--main-font);
   font-size: 40px;
   color: white;
+}
+
+footer {
+  display: flex;
+  background-color: var(--bg-color);
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer .logo {
+  flex: 1;
+}
+
+.socials ul {
+  margin: 0;
+  padding-left: 0;
+}
+.socials li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 20px;
+  flex: 1;
+}
+
+footer .copyrights {
+  font-family: var(--main-font);
+  font-size: 18px;
+  color: var(--medium-grey);
+  flex: 1;
+  text-align: right;
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 200px;
+}
+
+.sub-welcome {
+  width: 400px;
+  text-align: right;
+}
+
+.sub-welcome h2 {
+  font-family: var(--text-font);
+  font-size: 16px;
+  color: var(--bg-color);
+  opacity: 0.5;
+  letter-spacing: 0.4em;
+  font-weight: normal;
+}
+.sub-welcome p {
+  font-family: var(--text-font);
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.cloud-section {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+}
+
+.cloud-section svg {
+  display: block;
+}
+
+.admissions {
+  text-align: center;
+}
+.admissions h2 {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+}
+
+.admissions h3 {
+  font-family: var(--main-font);
+  font-size: 25px;
+  color: var(--main-color);
+  font-weight: normal;
+}
+
+.admissions p {
+  margin: 0;
+  font-family: var(--text-font);
+  font-size: 20px;
+  color: var(--dark-grey);
+}
+
+.main-title {
+  font-family: var(--main-font);
+  font-size: 30px;
+  color: var(--main-color);
+  margin-top: 40px;
+}
+
+.title-line {
+  border-top: 2px solid var(--main-color);
+  padding-bottom: 30px;
+}
+
+.public-section {
+  display: flex;
+  gap: 100px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.public-section img {
+  width: 100%;
+}
+
+.section-details {
+  flex: 1;
+  justify-content: center;
+}
+
+.section-details h2 {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-details p {
+  font-family: var(--text-font);
+  color: var(--dark-grey);
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.container-color {
+  background-color: var(--bg-color);
+}
+
+.container-details {
+  display: flex;
+  gap: 80px;
+}
+
+.container-details p {
+  margin: 0;
+  font-family: var(--text-font);
+  font-size: 16px;
+  color: var(--dark-grey);
+}
+
+.museum-details {
+  margin: 40px 20px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.museum-details img {
+  padding-right: 20px;
+  width: 58px;
+  height: 58px;
 }
