@@ -14,37 +14,42 @@
 <body>
     <!--HEADER-->
     <header>
-            <div class="header-intro">
-                <div class="center-content">
-                <div class="home-container">
-                    <div class="logo">
-                        <img src="images/LOGO.png" alt="atom logo of museum">
-                    </div>
-                    <nav class="menu">
-                        <ul>
-                            <li>
-                                <a class="active" href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Exhibitions</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                        <a class="cta-button" href="#">Book Visit</a>
-                    </nav>
+        <div class="header-intro">
+            <div class="home-container center-content">
+                <div class="logo">
+                    <img src="images/LOGO.png" class="logo-desktop" alt="atom logo of museum">
+                    <img src="images/LOGOmobile.png" class="logo-mobile" alt="atom logo of museum">
                 </div>
-                <div class="welcome-section">
-                    <div class="sub-welcome">
-                        <h2>- welcome</h2>
-                        <h1>Now open!</h1>
-                        <p>At the Community Science Museum  we believe Science should not be confined to the textbook, but brought to life through exhibits!</p>
-                        <a class="cta-button" href="#">Discover</a>
-                    </div>
+                <nav class="menu">
+                    <label for="hamburguer" class="hamburguer-icon">
+                        <img src="images/hamburguer.svg" alt="hamburguer menu icon"/>
+                    </label>
+                    <input type="checkbox" id="hamburguer" />
+                    <ul>
+                        <li>
+                            <a class="active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Exhibitions</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-cta">
+                    <a class="cta-button" href="#">Book Visit</a>
+                </div>
+            </div>
+            <div class="welcome-section center-content">
+                <div class="sub-welcome">
+                    <h2>- welcome</h2>
+                    <h1>Now open!</h1>
+                    <p>At the Community Science Museum  we believe Science should not be confined to the textbook, but brought to life through exhibits!</p>
+                    <a class="cta-button" href="#">Discover</a>
                 </div>
             </div>
             <div class="cloud-section">
@@ -56,6 +61,7 @@
                     <path d="M662.275 60.5052C457.073 1.83754 344.521 0.131927 148.939 60.5052C107.563 70.4803 70.4263 77.706 35.625 82.501V98.2882L662.275 109.052V60.5052Z" fill="white" fill-opacity="0.7"/>
                     </svg>                    
             </div> 
+        </div>
     </header>
    <!--CONTENT-->
    <div class="admissions">
@@ -90,30 +96,88 @@
             <p>Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them. We have online records, laboratory space, and a working relationship with a number of universities around the country.</p>
         </div>
     </div>
-    <div class="container-color">
-        <div class="container-details center-content">
-            <div class="museum-details">
-                <img src="images/wheelchair 1.png" alt="wheelchair icon for accessibility rules">
-                <p>Wheelchair accessibility ramps and audio guides and braille display signs for the visually impaired!</p>
-            </div>
-            <div class="museum-details">
-                <img src="images/coffee-cup 1.png" alt="coffee cup icon for coffeeshop">
-                <p>Café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more!</p>
-            </div>
-            <div class="museum-details">
-                <img src="images/bag 1.png" alt="shopping bag icon for souvenir store">
-              <p>Our shop offers a range of souvenirs from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
-            </div>
+    <div class="container-details">
+        <div class="museum-details">
+            <img src="images/wheelchair 1.png" alt="wheelchair icon for accessibility rules">
+            <p>Wheelchair accessibility ramps and audio guides and braille display signs for the visually impaired!</p>
+        </div>
+        <div class="museum-details">
+            <img src="images/coffee-cup 1.png" alt="coffee cup icon for coffeeshop">
+            <p>Café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more!</p>
+        </div>
+        <div class="museum-details">
+            <img src="images/bag 1.png" alt="shopping bag icon for souvenir store">
+            <p>Our shop offers a range of souvenirs from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
         </div>
     </div>
+    <!--SPACES SECTION-->
     <div class="spaces-container center-content">
         <div class="center-content">
             <h1 class="main-title">Our Spaces</h1>
             <div class="title-line"></div>
         </div>
-        <div class="spaces-section">
-            <!--image and text box here-->
+        <div class="spaces-section center-content">
+            <div class="single-section">
+                <img src="images/astrocosmo.jpg" alt="astronaut in yellow suit">
+                <div>
+                    <div class="container-color section-box">
+                        <h3 class="sec-title">Cosmology</h3>
+                        <p>Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by. Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-section switch-order">
+                <img src="images/evolution.jpg" alt="ancient skeletons in display">
+                <div>
+                    <div class="container-color section-box">
+                        <h3 class="sec-title">Evolution</h3>
+                        <p>For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world. Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-section">
+                <img src="images/biomed.jpg" alt="medicinal bust of human">
+                <div>
+                    <div class="container-color section-box">
+                        <h3 class="sec-title">Biology and Medicine</h3>
+                        <p>From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant. Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-section switch-order">
+                <img src="images/robrobot.jpg" alt="robot picture">
+                <div>
+                    <div class="container-color section-box">
+                        <h3 class="sec-title">Robotics and AI</h3>
+                        <p>The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-section">
+                <img src="images/eco.jpg" alt="landscape with green field and eolic turbines">
+                <div>
+                    <div class="container-color section-box">
+                        <h3 class="sec-title">Ecology</h3>
+                        <p>As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet! Bring your family to the ecology section of the museum, where we unpack the dangers we currently face including global warming, extinction of species, and pollution and focus on the positive ways we can all contribute to a brighter future!</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="highlight-section">
+        <div class="center-content">
+            <div class="text-content">
+                <h3>Highlight of Opening Week</h3>
+                <h2>Night in the Museum</h2>
+                <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science!</p>
+            </div>
+            <div class="png-content"> 
+                <img src="images/dino.png" alt="dinossaur jumping out of the page image">
+            </div>
+        </div>
+    </div>
+    <div class="learn-more">
+        <a class="cta-button" href="#">Learn more</a>
     </div>
     <!--FOOTER-->
     <footer>
@@ -124,16 +188,16 @@
             <div class="socials">
                 <ul>
                     <li>
-                        <a href="#"><img src="images/fb.png" alt="facebook logo"></a>
+                        <a href="https://www.facebook.com/"><img src="images/fb.png" alt="facebook logo"></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/instagram.png" alt="instagram logo"></a>
+                        <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/twitter.png" alt="twitter logo"></a>
+                        <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter logo"></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/youtube.png" alt="youtube logo"></a>
+                        <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>
                     </li>
                 </ul>
             </div>
