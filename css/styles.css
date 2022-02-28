@@ -136,6 +136,7 @@ footer .copyrights {
 }
 
 .sub-welcome h2 {
+  margin-top: -10px;
   font-family: var(--text-font);
   font-size: 16px;
   color: var(--bg-color);
@@ -323,7 +324,7 @@ h2 {
   color: var(--bg-color);
   font-size: 20px;
   font-weight: bold;
-  width: 570px;
+  max-width: 570px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -336,6 +337,7 @@ h2 {
   text-align: center;
 }
 .png-content {
+  order: 2;
   text-align: right;
 }
 .png-content img {
@@ -361,6 +363,10 @@ h2 {
   }
 }
 @media only screen and (max-width: 1040px) {
+  .sub-welcome {
+    background-color: rgba(18, 63, 33, 0.6);
+    padding: 15px;
+  }
   .home-container {
     background-color: var(--main-color);
     padding-top: 15px;
@@ -425,6 +431,26 @@ h2 {
   .public-section {
     gap: 20px;
   }
+  .vertical-center {
+    display: block;
+    text-align: center;
+  }
+  footer .copyrights {
+    display: block;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .highlight-section .center-content {
+    display: block;
+  }
+  .png-content {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .text-content {
+    padding-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 750px) {
   .container-details {
@@ -436,13 +462,14 @@ h2 {
   }
 
   .museum-details p {
-    width: 290px;
+    max-width: 290px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .single-section {
     display: block;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -450,7 +477,9 @@ h2 {
   .single-section img {
     display: block;
     margin: auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 340px;
   }
 }
 @media only screen and (max-width: 830px) {
@@ -468,13 +497,21 @@ h2 {
   .header-intro {
     background-size: cover;
   }
-  .sub-welcome {
-    background-color: rgba(18, 63, 33, 0.8);
-    padding: 15px;
+}
+@media only screen and (max-width: 400px) {
+  footer .logo {
+    display: none;
+  }
+  .png-content img {
+    width: 100%;
+    max-width: 370px;
   }
 }
 @media only screen and (max-width: 490px) {
   .header-cta span {
     display: none;
+  }
+  .section-box {
+    margin: 0;
   }
 }
