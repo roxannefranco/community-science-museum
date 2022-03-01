@@ -22,13 +22,26 @@
   display: flex;
   align-items: center;
 }
+.page-home {
+  background-image: url(../images/astronaut-background.jpg);
+  background-color: #112b1e;
+}
 .header-intro {
   position: relative;
-  background-image: url(../images/astronaut-background.jpg);
   min-height: 100vh;
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: #112b1e;
+}
+
+.solid-header {
+  display: flex;
+  background-color: var(--main-color);
+  max-height: 114px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
   margin: 0;
@@ -362,7 +375,7 @@ h2 {
     margin-bottom: 15px;
   }
 }
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1030px) {
   .sub-welcome {
     background-color: rgba(18, 63, 33, 0.6);
     padding: 15px;
