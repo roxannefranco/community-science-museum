@@ -411,10 +411,6 @@ h2 {
   margin-top: 30px;
 }
 
-.first-title {
-  margin-top: calc(40px + 76px);
-}
-
 .requests-section {
   display: block;
   max-height: 160px;
@@ -448,6 +444,41 @@ h2 {
 .requests-section span {
   text-decoration: underline;
   font-weight: 500;
+}
+
+.involved-container {
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.involved-text a {
+  text-decoration: none;
+}
+
+.involved-text {
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+  line-height: 30px;
+}
+
+.involved-text a {
+  color: var(--main-color);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.display-side {
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.display-side img {
+  width: 340px;
+  object-fit: cover;
 }
 /* RESPONSIVE RULES */
 @media only screen and (max-width: 1300px) {
@@ -532,6 +563,9 @@ h2 {
   .cta-button {
     margin-right: 30px;
   }
+  .first-title {
+    margin-top: calc(40px + 76px);
+  }
 }
 @media only screen and (max-width: 940px) {
   .public-section {
@@ -603,6 +637,17 @@ h2 {
     display: none;
   }
 }
+@media only screen and (max-width: 814px) {
+  .display-side {
+    display: block;
+  }
+  .display-side img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}
 @media only screen and (max-width: 830px) {
   .public-section {
     display: block;
@@ -619,6 +664,17 @@ h2 {
     background-size: cover;
   }
 }
+@media only screen and (max-width: 490px) {
+  .section-box {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .display-side img {
+    width: 100%;
+    max-width: 340px;
+  }
+}
 @media only screen and (max-width: 400px) {
   footer .logo {
     display: none;
@@ -626,10 +682,5 @@ h2 {
   .png-content img {
     width: 100%;
     max-width: 370px;
-  }
-}
-@media only screen and (max-width: 490px) {
-  .section-box {
-    margin: 0;
   }
 }
