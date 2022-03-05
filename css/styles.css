@@ -641,7 +641,6 @@ textarea {
 
   nav.menu {
     justify-content: flex-start;
-    margin-left: 30px;
   }
 
   .menu ul {
@@ -663,9 +662,6 @@ textarea {
   }
   #hamburguer:checked ~ ul {
     display: block;
-  }
-  .cta-button {
-    margin-right: 30px;
   }
   .first-title {
     margin-top: calc(40px + 76px);
