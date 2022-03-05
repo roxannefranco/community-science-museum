@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description" content="Success page after completing a visit booking">
-    <meta name="keywords" content="success, booked, done">
+    <meta name="description" content="Contact page made for user to contact museum in several ways">
+    <meta name="keywords" content="contact, phone, email">
     <meta name="author" content="Roxanne Franco">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking Completed!</title>
+    <title>Contact Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet"> 
@@ -36,7 +36,7 @@
                             <a href="exhibitions.html">Exhibitions</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a class="active" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -47,23 +47,40 @@
         </div>
     </header>
 <!--CONTENT-->
-    <div class="center-content">
-        <h1 class="main-title first-title">Booking done!</h1>
-        <div class="title-line"></div>
-        <div class="center-content center-success">
-            <h2 class="main-title">Thank you for your Booking!</h2>
-            <p class="text-style">Please check your e-mail for a <span>Booking confirmation.</span></p>
-            <p class="text-style">Group and School requests should wait for <span>date approval.</span></p>
-        </div>
-        <div class="involved-container container-color">
-            <h2 class="exhibit-title">Looking forward to have you!</h2>
-            <p class="involved-text">Remember to come half hour early if you come in a big group or with your school!</p>
-            <p class="involved-text">Be ready for your interactive adventure!</p>
-        </div>
-        <div class="booking-button">
-            <a class="cta-button" href="exhibitions.html">More Exhibitions!</a>
-        </div>
-    </div>  
+<div class="center-content">
+    <h1 class="main-title first-title">Contacts</h1>
+    <div class="title-line"></div>
+    <div class="center-content center-success">
+        <h2 class="exhibit-title">Wondering about something?</h2>
+        <p class="text-style">Telephone: 21 000 000 (Mon-Sat between 9:00-18:00)</p>
+        <p class="text-style">You can contact us through the form below by simply choosing the subject and filling the blanks!</p>
+    </div>
+    <div class="container-color contact-form">
+        <form>
+            <div class="input-row">
+                <input class="input-style input-flex" type="text" placeholder="Name">
+                <input class="input-style input-flex" type="text" placeholder="Email">
+            </div>
+            <div class="input-row">
+                <input class="input-style input-flex" type="text" placeholder="Phone Number">
+                <select class="input-style input-flex">
+                    <option selected disabled>Select Subject</option>
+                    <option>Change My Booking</option>
+                    <option>Donation</option>
+                    <option>Volunteering</option>
+                    <option>Interships</option>
+                    <option>Other</option>
+                 </select>
+                <input class="input-style input-flex" type="text" placeholder="Booking Number (if applicable)">
+            </div>
+            <div class="input-row">
+                <textarea class="input-style" placeholder="Your Message"></textarea>
+            </div>
+        </form>
+    </div>
+    <div class="booking-button">
+        <a class="cta-button" href="contact.html">Send Message</a>
+    </div>
 <!--FOOTER-->
         <footer>
             <div class="center-content vertical-center">
