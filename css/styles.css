@@ -539,6 +539,20 @@ h2 {
 .check-container {
   margin-bottom: 15px;
 }
+
+.center-success {
+  text-align: center;
+}
+
+.text-style {
+  font-family: var(--text-font);
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.text-style span {
+  font-weight: bold;
+}
 /* RESPONSIVE RULES */
 @media only screen and (max-width: 1300px) {
   .logo-desktop {
