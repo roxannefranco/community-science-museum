@@ -585,6 +585,10 @@ textarea {
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
+
+.map {
+  width: 100%;
+}
 /* RESPONSIVE RULES */
 @media only screen and (max-width: 1300px) {
   .logo-desktop {
@@ -755,6 +759,37 @@ textarea {
   }
   .contact-form {
     padding-top: 10px;
+  }
+
+  .admissions h2 {
+    font-size: 20px;
+  }
+
+  .admissions h3 {
+    font-size: 16px;
+  }
+
+  .admissions p {
+    font-size: ;
+  }
+  .highlight-section h3 {
+    font-size: 20px;
+  }
+
+  .highlight-section h2 {
+    font-size: 22px;
+  }
+
+  .highlight-section p {
+    font-size: 16px;
+  }
+
+  .main-title {
+    font-size: 22px;
+  }
+
+  .exhibit-title {
+    font-size: 22px;
   }
 }
 @media only screen and (max-width: 830px) {
