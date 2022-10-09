@@ -24,6 +24,9 @@ Process includes:
 - Javascript;
 - Wordpress REST API.
 
+## Project Grade
+A
+
 ## Getting Started
 
 ### Installing
