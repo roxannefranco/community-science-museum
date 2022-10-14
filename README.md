@@ -7,20 +7,20 @@ A newly opened interactive Community Science Museum website with the goal of lea
 ## Description
 
 A Science Museum recently opened with a diverse range of interactive exhibits for a core target audience that is inquisitive and intelligent primary and middle school children (ages between 7-15) and families with young children. The website is aimed to be informative and appealing. All exhibits were a criation for this project.
-Developed as my Semester Project as a student of Front-end Development at Noroff, this online store is meant to inform and appeal its users into booking tickets for the museum. It has a simple, clear and easy flow for a better user experience. At this point we were not yet using Javascript at the course.
+Developed as my Semester Project as a student of Front-end Development at Noroff, this online store is meant to inform and appeal its users into booking tickets for the museum. It has a simple, clear and easy flow for a better user experience. At this point we were not yet using ```Javascript``` at the course.
 
 Process includes:
 
 - Wireframe and Prototyping using Figma;
-- Developed with HTML, CSS;
+- Developed with ```HTML``` and ```CSS```;
 - Every screen size being responsive;
 - User testing.
 
 ## Built With
 
 - Figma;
-- HTML;
-- CSS.
+- ```HTML```;
+- ```CSS```.
 
 ## Project Grade
 A
