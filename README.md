@@ -41,4 +41,4 @@ As a student I would really appreciate to hear any suggestions and improvements 
 
 ## Links
 
-- Netlify Website (https://project-community-science-museum.netlify.app/)
+[Live Website](https://project-community-science-museum.netlify.app/)
